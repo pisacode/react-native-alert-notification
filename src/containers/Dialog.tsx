@@ -280,11 +280,12 @@ const __styles = (isDark: boolean) =>
 
     titleLabel: {
       fontWeight: 'bold',
-      fontSize: 20,
+      fontSize: 40,
       color: Color.get('label', isDark),
     },
     descLabel: {
       textAlign: 'center',
+      fontSize: 30,
       color: Color.get('label', isDark),
     },
     button: {
@@ -299,7 +300,7 @@ const __styles = (isDark: boolean) =>
     buttonLabel: {
       color: '#fff',
       fontWeight: 'bold',
-      fontSize: 16,
+      fontSize: 30,
     },
     [ALERT_TYPE.SUCCESS]: {
       backgroundColor: Color.get('success', isDark),
