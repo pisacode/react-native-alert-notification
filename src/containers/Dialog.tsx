@@ -261,7 +261,7 @@ const __styles = (isDark: boolean) =>
       alignSelf: 'center',
       maxWidth: 800,
       width: '80%',
-      minHeight: 250,
+      minHeight: 400,
       borderRadius: 24,
       paddingHorizontal: 12,
       paddingTop: 50,
