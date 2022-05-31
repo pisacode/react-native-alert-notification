@@ -259,7 +259,7 @@ const __styles = (isDark: boolean) =>
     },
     cardContainer: {
       alignSelf: 'center',
-      maxWidth: 400,
+      maxWidth: 800,
       width: '80%',
       minHeight: 250,
       borderRadius: 24,
