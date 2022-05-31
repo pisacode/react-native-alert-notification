@@ -235,7 +235,7 @@ const __styles = (isDark: boolean) =>
 
     titleLabel: {
       fontWeight: 'bold',
-      fontSize: 50,
+      fontSize: 40,
       color: Color.get('label', isDark),
     },
     descLabel: {
