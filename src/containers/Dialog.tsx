@@ -280,12 +280,12 @@ const __styles = (isDark: boolean) =>
 
     titleLabel: {
       fontWeight: 'bold',
-      fontSize: 40,
+      fontSize: 35,
       color: Color.get('label', isDark),
     },
     descLabel: {
       textAlign: 'center',
-      fontSize: 30,
+      fontSize: 28,
       color: Color.get('label', isDark),
     },
     button: {
