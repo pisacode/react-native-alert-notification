@@ -224,37 +224,38 @@ const __styles = (isDark: boolean) =>
 
     cardContainer: {
       flexDirection: 'row',
-      borderRadius: 12,
-      paddingHorizontal: 12,
-      paddingTop: 12,
-      paddingBottom: 12,
-      marginHorizontal: 12,
-      marginBottom: 12,
+      borderRadius: 24,
+      paddingHorizontal: 24,
+      paddingTop: 24,
+      paddingBottom: 24,
+      marginHorizontal: 24,
+      marginBottom: 24,
       backgroundColor: Color.get('card', isDark),
     },
 
     titleLabel: {
       fontWeight: 'bold',
-      fontSize: 18,
+      fontSize: 50,
       color: Color.get('label', isDark),
     },
     descLabel: {
       color: Color.get('label', isDark),
+      fontSize: 30,
     },
     backendImage: {
       position: 'absolute',
       alignSelf: 'center',
-      height: 12,
-      width: 12,
+      height: 30,
+      width: 30,
       backgroundColor: '#FBFBFB',
       borderRadius: 100,
-      left: 12 + 7,
+      left: 24 + 14,
     },
     image: {
       alignSelf: 'center',
-      width: 25,
+      width: 50,
       aspectRatio: 1,
-      marginRight: 12,
+      marginRight: 24,
     },
 
     [`${ALERT_TYPE.SUCCESS}Image`]: {
