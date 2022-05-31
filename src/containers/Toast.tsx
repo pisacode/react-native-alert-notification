@@ -235,13 +235,13 @@ const __styles = (isDark: boolean) =>
 
     titleLabel: {
       fontWeight: 'bold',
-      fontSize: 40,
+      fontSize: 35,
       marginBottom:15,
       color: Color.get('label', isDark),
     },
     descLabel: {
       color: Color.get('label', isDark),
-      fontSize: 30,
+      fontSize: 28,
     },
     backendImage: {
       position: 'absolute',
